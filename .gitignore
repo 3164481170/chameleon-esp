@@ -1,0 +1,31 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- PyInstaller 构建产物 ---
+build/
+dist/
+*.manifest
+
+# --- 运行时生成（含本机进程地址，不应入库）---
+offsets.json
+config.json
+filters.json
+dumps/
+reports/
+*.bin
+*.regions.json
+screenshot*.png
+
+# --- 从游戏 pak 提取的字符串清单（游戏资源数据，不入库）---
+tools/*.strings.txt
+
+# --- 编辑器 / 系统 ---
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
